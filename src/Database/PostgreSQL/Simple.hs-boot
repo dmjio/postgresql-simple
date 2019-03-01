@@ -11,8 +11,8 @@ module Database.PostgreSQL.Simple
 import Data.Int(Int64)
 import Database.PostgreSQL.Simple.Internal
 import Database.PostgreSQL.Simple.Types
-import {-# SOURCE #-} Database.PostgreSQL.Simple.FromRow
-import {-# SOURCE #-} Database.PostgreSQL.Simple.ToRow
+import Database.PostgreSQL.Simple.FromRow
+import Database.PostgreSQL.Simple.ToRow
 
 query :: (ToRow q, FromRow r) => Connection -> Query -> q -> IO [r]
 

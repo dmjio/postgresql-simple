@@ -1,6 +1,6 @@
 module Database.PostgreSQL.Simple.FromRow where
 
-import {-# SOURCE #-} Database.PostgreSQL.Simple.FromField
+import                Database.PostgreSQL.Simple.FromField
 import                Database.PostgreSQL.Simple.Types
 
 class FromRow a

@@ -36,7 +36,7 @@ import           Control.Concurrent.MVar
 import           Control.Exception (throw)
 
 import qualified Database.PostgreSQL.LibPQ as PQ
-import {-# SOURCE #-} Database.PostgreSQL.Simple
+import                Database.PostgreSQL.Simple
 import                Database.PostgreSQL.Simple.Internal
 import                Database.PostgreSQL.Simple.Types
 import                Database.PostgreSQL.Simple.TypeInfo.Types

@@ -4,7 +4,7 @@ module Database.PostgreSQL.Simple.ToRow (
     ) where
 
 import Database.PostgreSQL.Simple.Types
-import {-# SOURCE #-} Database.PostgreSQL.Simple.ToField
+import Database.PostgreSQL.Simple.ToField
 import GHC.Generics
 
 class ToRow a where
